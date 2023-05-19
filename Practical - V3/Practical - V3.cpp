@@ -13,9 +13,8 @@ int main(int argc, char** argv)
     MPI_Comm_size(MPI_COMM_WORLD, &size);
 
     int arr[1000];
-    int localSize = 1000 / size;
+    int localarr[250];
     int loaclsum = 0;
-    auto* localarr = new int[localSize];
     int sum = 0;
 
 
@@ -23,10 +22,10 @@ int main(int argc, char** argv)
         for (int i = 0; i < 1000; i++)
             arr[i] = i + 1;
 
+    //On 4 processors
+    MPI_Scatter(&arr, 250, MPI_INT, &localarr, 250, MPI_INT, 0, MPI_COMM_WORLD);
 
-    MPI_Scatter(arr, localSize, MPI_INT, localarr, localSize, MPI_INT, 0, MPI_COMM_WORLD);
-
-    for (int i = 0; i < localSize; i++)
+    for (int i = 0; i < 250; i++)
     {
         if (localarr[i] % 2 == 0)
             loaclsum += localarr[i] + 2;
@@ -38,23 +37,7 @@ int main(int argc, char** argv)
     MPI_Reduce(&loaclsum, &sum, 1, MPI_INT, MPI_SUM, 0, MPI_COMM_WORLD);
 
     if (rank == 0)
-    {
-        for (int i = localSize * size; i < 1000; i++)
-        {
-            if (arr[i] % 2 == 0)
-            {
-                arr[i] += 2;
-            }
-            else
-            {
-                arr[i] -= 1;
-            }
-            
-            sum += arr[i];
-        }
-
         printf("%d\n", sum);
-    }
 
 
     MPI_Finalize();
