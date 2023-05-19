@@ -1,7 +1,7 @@
 # HBC 'Labs & practical Exams' Solutions
 
 ### How to run the MPI project
-In the folder of the project go to `Debug` folder you can see now this file `theNameOfTheProject.exe`. Run the cmd there and write the following code :
+- In the folder of the project go to `Debug` folder you can see now this file `theNameOfTheProject.exe`. Run the cmd there and write the following code :
 ```C++
 mpiexec "nameOfTheProject.exe"
 ```
