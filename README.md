@@ -9,4 +9,4 @@ mpiexec "nameOfTheProject.exe"
 ```bash
 mpiexec -n 3 "nameOfTheProject.exe"
 ```
-- The "3" is the number of the processrs you can write yours 😉
+- The "3" is the number of the processrs you can write yours
