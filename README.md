@@ -12,8 +12,8 @@
 ```bash
 mpiexec "nameOfTheProject.exe"
 ```
-### How to run on a specefic number of processors
+### How to run the MPI project on a specefic number of processors
 ```bash
 mpiexec -n 3 "nameOfTheProject.exe"
 ```
-- The "3" is the number of the processrs you can write yours
+- The `3` is the number of the processors. You can write yours..
