@@ -19,3 +19,7 @@ mpiexec "nameOfTheProject.exe"
 mpiexec -n 3 "nameOfTheProject.exe"
 ```
 - The `3` is the number of the processors. You can write yours..
+
+
+## 📌 Note :
+- This repo is for educational purposes only and to provide my colleagues with more examples and exercises on the practical part of the HPC course
