@@ -6,9 +6,6 @@
     "High Performance Computing" course at FCIS - ASU
 </div>
 <br>
-
-## Some Practical Exams with my solutions
-
 <br>
 
 ![image](./Img/maxNumImg.png)
