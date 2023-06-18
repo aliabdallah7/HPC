@@ -7,7 +7,7 @@
 </div>
 <br>
 
-## Some Practical Exams with their solutions
+## Some Practical Exams with my solutions
 
 <br>
 
@@ -523,3 +523,9 @@ int main()
     return 0;
 }
 ```
+
+<br>
+<br>
+
+## 📌 Note :
+Please note that the solutions provided in this README are just one possible approach. There are often multiple ways to solve a problem, and the solutions presented here are not the only correct ones. Feel free to explore alternative methods and find the approach that best suits your needs and preferences. The key is to understand the problem and choose a solution that is efficient, maintainable, and aligns with your coding style. Happy coding!
