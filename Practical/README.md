@@ -12,7 +12,7 @@
 
 1. 
 
-![image](funimg.jpg)
+![image](./Img/funimg.jpg)
 
 Solution :
 
