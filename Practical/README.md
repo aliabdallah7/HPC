@@ -6,11 +6,10 @@
     "High Performance Computing" course at FCIS - ASU
 </div>
 <br>
-<br>
 
 ## Some Practical Exams with their solutions
 
-1. Here he want me to print the result of the Standard Deviation based on this formula.
+Here he want me to print the result of the Standard Deviation based on this formula.
 
 ![image](./Img/funimg.jpg)
 
@@ -101,6 +100,9 @@ int main()
     return 0;
 }
 ```
+
+<br>
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 <br>
 
 2. 
