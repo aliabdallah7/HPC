@@ -158,8 +158,10 @@ int main()
 ```
 
 <br>
+<p align = 'center'>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~<p>
+<br>
 
-3. <b>MPI Array Calculation<b>
+<b>MPI Array Calculation<b>
 This program performs a calculation on a given 4x4 array. The array is initially defined as follows:
 ```C++
 [
@@ -253,8 +255,9 @@ int main(int argc, char** argv)
 ```
 
 <br>
+<p align = 'center'>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~<p>
+<br>
 
-4. 
 ![image](./Img/v1img.png)
 
 <b>Solution :<b>
@@ -315,8 +318,8 @@ int main(int argc, char** argv)
 ```
 
 <br>
-
-5. 
+<p align = 'center'>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~<p>
+<br>
 
 ![image](./Img/v2img.png)
 
@@ -390,8 +393,8 @@ int main(int argc, char** argv)
 ```
 
 <br>
-
-6. 
+<p align = 'center'>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~<p>
+<br>
 
 ![image](./Img/v3img.png)
 
@@ -446,8 +449,8 @@ int main(int argc, char** argv)
 ```
 
 <br>
-
-7.
+<p align = 'center'>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~<p>
+<br>
 
 ![image](./Img/imgv6.png)
 
